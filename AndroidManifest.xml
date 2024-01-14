@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.myproject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:name=".AppConstants"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyProject"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".LoggedinUsers"
+            android:exported="false" />
+        <activity
+            android:name=".AddSlotActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BookingSlotActivity"
+            android:exported="false" />
+        <activity
+            android:name=".updateUserdata"
+            android:exported="false" />
+        <activity
+            android:name=".ParkingSpaces"
+            android:exported="false" />
+        <activity
+            android:name=".BookingHistory"
+            android:exported="false" />
+        <activity
+            android:name=".GPSMapActivity"
+            android:exported="false" />
+        <activity
+            android:name=".booking_details"
+            android:exported="false" />
+        <activity
+            android:name=".UserHistory"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_verify"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_otp"
+            android:exported="false" />
+        <activity
+            android:name=".AboutUs"
+            android:exported="false" />
+        <activity
+            android:name=".dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".personal_details"
+            android:exported="false" />
+        <activity
+            android:name=".BookingDetailInterface"
+            android:exported="false" />
+        <activity
+            android:name=".serviceProvider"
+            android:exported="false" />
+        <activity
+            android:name=".Main_userpage"
+            android:exported="false" />
+        <activity
+            android:name=".Create_Account"
+            android:exported="false" />
+        <activity
+            android:name=".loginpage"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Landingpage"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBvJElOJktKYJABt96RohoJ-tJYN1AQDSM" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1"
+    tools:context=".booking_details">
+
+
+    <EditText
+        android:id="@+id/slot_number"
+        android:layout_width="223dp"
+        android:layout_height="56dp"
+        android:drawablePadding="10dp"
+        android:hint="Slot number"
+        android:padding="10dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.021"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.346" />
+
+    <EditText
+        android:id="@+id/Vehicle_number"
+        android:layout_width="234dp"
+        android:layout_height="44dp"
+        android:hint="Veichle Number"
+        android:padding="10dp"
+        android:text=""
+        android:inputType="textCapCharacters"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:maxLength="10"
+        android:imeOptions="actionNext"
+        android:nextFocusDown="@+id/mobile_number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.022"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.433" />
+
+    <EditText
+        android:id="@+id/current_time"
+        android:layout_width="241dp"
+        android:layout_height="66dp"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:hint="Current time"
+        android:padding="10dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.023"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.514" />
+
+    <EditText
+        android:id="@+id/end_time"
+        android:layout_width="237dp"
+        android:layout_height="54dp"
+        android:hint="End time"
+        android:padding="10dp"
+        android:text=""
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.017"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.614" />
+
+    <EditText
+        android:id="@+id/mobile_number"
+        android:layout_width="239dp"
+        android:layout_height="58dp"
+        android:hint="Mobile Number"
+        android:padding="10dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:maxLength="10"
+        android:inputType="number"
+        android:imeOptions="actionNext"
+        android:nextFocusDown="@+id/mobile_number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.018"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.726" />
+
+    <Button
+        android:id="@+id/book_btn"
+        android:layout_width="153dp"
+        android:layout_height="54dp"
+        android:text="Book Now"
+        android:backgroundTint="@color/orange_400"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.969"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.997" />
+
+    <Button
+        android:id="@+id/Amount"
+        android:layout_width="155dp"
+        android:layout_height="59dp"
+        android:text="pay Now"
+        android:backgroundTint="@color/orange_400"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.997" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="369dp"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:text="Car Booking Space"
+        android:textAlignment="center"
+        android:textColor="@color/purple_200"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.857"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.17" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="195dp"
+        android:layout_height="102dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.445"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.012"
+        app:srcCompat="@mipmap/ic_launcher_foreground" />
+
+
+    <EditText
+        android:id="@+id/person"
+        android:layout_width="243dp"
+        android:layout_height="42dp"
+        android:hint="Name"
+        android:imeOptions="actionDone|flagNoEnterAction"
+        android:padding="10dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.023"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.793" />
+
+    <TextView
+        android:id="@+id/text_view_amount"
+        android:layout_width="157dp"
+        android:layout_height="38dp"
+        android:layout_marginEnd="8dp"
+        android:paddingTop="16dp"
+        android:hint="Amount"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.873" />
+
+    <Button
+        android:id="@+id/button_calculate"
+        android:layout_width="202dp"
+        android:layout_height="49dp"
+        android:layout_marginEnd="204dp"
+        android:text="Calculate Amount"
+        android:backgroundTint="@color/orange_400"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.887" />
+
+    <TextView
+        android:id="@+id/slotName"
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:padding="20dp"
+        android:textSize="20dp"
+        android:text=" "
+        android:textColor="@color/red_300"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.635"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.246" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="107dp"
+        android:layout_height="27dp"
+        android:layout_marginBottom="412dp"
+        android:text="GJ00AA1234"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.858"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
