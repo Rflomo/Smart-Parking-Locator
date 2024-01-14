@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Top image -->
+    <ImageView
+        android:id="@+id/top_image"
+        android:layout_width="266dp"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"/>
+
+    <!-- Company logo -->
+
+    <!-- Company name -->
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="209dp"
+        android:layout_height="142dp"
+        android:layout_below="@id/top_image"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="196dp"
+        android:layout_marginEnd="94dp"
+        android:layout_marginBottom="32dp"
+        android:src="@drawable/park" />
+
+    <TextView
+        android:id="@+id/company_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="SMART PARKING"
+        android:textColor="@color/red_300"
+        android:textSize="24sp" />
+
+    <!-- Company description -->
+    <TextView
+        android:id="@+id/company_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/company_name"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text=" At SMART PARKING, we're committed to making parking easy and stress-free. Our smart parking app helps drivers quickly locate and book parking slots in busy areas, saving time and reducing frustration. With our advanced technology, you can easily find available parking slots, get real-time updates on parking availability, and make reservations on-the-go. We're dedicated to making your parking experience as smooth and seamless as possible."
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <!-- Divider line -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@color/black"
+        android:layout_below="@id/company_description"/>
+
+    <!-- Contact information -->
+    <TextView
+        android:id="@+id/contact_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Ally diah : 9099675421"
+        android:textAlignment="center"
+        android:textColor="@color/teal_700"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/contact_infor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:text="Damitrih : 90996754678"
+        android:textAlignment="center"
+        android:textColor="@color/teal_700"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/contact_inform"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:text="Roy : 909967546890"
+        android:textAlignment="center"
+        android:textColor="@color/teal_700"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/contact_inforn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="Phillimon : 9099687542"
+        android:textAlignment="center"
+        android:textColor="@color/teal_700"
+        android:textSize="20sp" />
+</RelativeLayout>
