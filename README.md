@@ -17,7 +17,7 @@ Smart Parking Locator is a Java-based Android application developed using Androi
 
 ## Development Environment
 
-ParkingPal is developed in Java using Android Studio, making it accessible for Android app development enthusiasts. The application is designed to run on Android version 10 and above.
+Smart-Parking Locator is developed in Java using Android Studio, making it accessible for Android app development enthusiasts. The application is designed to run on Android version 10 and above.
 
 ## Getting Started
 
